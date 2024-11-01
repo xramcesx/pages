@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Itim&family=Permanent+Marker&family=Satisfy&family=Spicy+Rice&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.portada{
+    background:linear-gradient(to right, #000000d5, #00000009), url("../img/portada2.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+header{
+    height: 70px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.336);
+}
+.por1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.por1 img{
+    width: 40px;
+    margin-right: 5px;
+}
+.por1 h2{
+    font-size: 30px;
+    font-family: "Satisfy", serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+.por2{
+    display: flex;
+    align-items: center;
+}
+.por2 ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.por2 li{
+    display: flex;
+    width: 120px;
+
+}
+.por2 a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: "Itim", serif;
+    font-weight: 400;
+}
+.portada1{
+    height: calc(100vh - 75px);
+    display: flex;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-left: 20px;
+    width: 580px;
+}
+.titulo h2{
+    color: rgb(0, 238, 255);
+    font-size: 70px;
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    width: 900px;
+}
+.titulo p{
+    color: rgba(255, 255, 255, 0.87);
+    font-family: "Itim", serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+@media only screen and  (max-width: 400px)  {
+   .portada{
+        background: linear-gradient(to right, #000000d5, #00000009), url("../img/portada2.jpg");
+        background-size: cover;
+        height:200px;
+   }
+   header {
+       height: 50px;
+       background-color: transparent;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       background-color: rgba(255, 255, 255, 0.336);
+   }
+
+   .por1 {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+   }
+
+   .por1 img {
+       width: 20px;
+       margin-right: 5px;
+   }
+
+   .por1 h2 {
+       font-size: 18px;
+       font-family: "Satisfy", serif;
+       font-weight: 400;
+       color: rgb(0, 0, 0);
+   }
+
+   .por2 {
+       display: flex;
+       align-items: center;
+   }
+
+   .por2 ul {
+       display: flex;
+       flex-direction: row;
+       list-style: none;
+   }
+
+   .por2 li {
+       display: flex;
+       width: 65px;
+
+   }
+
+   .por2 a {
+       display: flex;
+       text-decoration: none;
+       color: black;
+       font-size: 15px;
+       font-family: "Itim", serif;
+       font-weight: 400;
+   }
+   .portada1 {
+       height: calc(200px - 50px);
+       display: flex;
+   }
+   .titulo {
+       display: flex;
+       flex-direction: column;
+       justify-content: start;
+       margin-left: 20px;
+       width: 205px;
+   }
+
+   .titulo h2 {
+       color: rgb(88, 244, 255);
+       font-size: 20px;
+       font-family: "Permanent Marker", serif;
+       font-weight: 400;
+   }
+
+   .titulo p {
+       color: rgba(255, 255, 255, 0.87);
+       font-family: "Itim", serif;
+       font-weight: 400;
+       font-size: 10px;
+   }
+}
