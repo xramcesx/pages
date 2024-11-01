@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: rgb(0, 0, 0);
@@ -10,6 +11,7 @@ body{
 .portada {
     background: linear-gradient(to right, #000000d5, #00000009), url("../img/portada2.jpg");
     background-size: cover;
+    height: auto;
     height: 100vh;
 }
 
@@ -176,16 +178,10 @@ footer{
     margin-right: 10px;
 }
 
-@media only screen and (max-width: 600px) {
-    * {
-        margin: 0;
-        padding: 0;
-    }
+@media (max-width: 750px) {
     body {
         background-color: rgb(0, 0, 0);
-        overflow-x:hidden;
-        height: auto;
-        width: auto;
+        width: 100%;
     }
     .portada {
         background: linear-gradient(to right, #000000d5, #00000009), url("../img/portada2.jpg");
@@ -338,7 +334,8 @@ footer{
         margin-left: 10px;
     }
     .redes img{
-        height: 15px;
+        max-height: 15px;
+        height: auto;
     }
 
     .cont {
@@ -369,6 +366,7 @@ footer{
 
     .cont img {
         margin-right: 10px;
-        height: 15px;
+        max-height: 15px;
+        height: auto;
     }
 }
